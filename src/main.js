@@ -3,6 +3,9 @@ import App from './App.vue'
 import router from './router'
 import axios from 'axios'
 
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap'
+
 createApp(App).use(router).mount('#app')
 
 axios.defaults.baseURL = 'http://192.168.0.62:8080/'
