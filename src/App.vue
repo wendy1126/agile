@@ -2,7 +2,8 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
-    <router-link to="/detail">detail</router-link>
+    <router-link to="/detail">detail</router-link> |
+    <router-link to="/invoice">Invoice</router-link>
   </nav>
   <router-view />
 </template>
