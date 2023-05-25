@@ -21,6 +21,8 @@
       </div>
     </div>
   </nav>
+
+  <MuneName />
   <router-view />
 
   <!-- <nav>
@@ -56,6 +58,6 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: red;
+  color: #0c69f1;
 }
 </style>
